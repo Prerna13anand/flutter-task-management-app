@@ -1,0 +1,36 @@
+name: task_management_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0' # Updated sdk constraint for modern packages
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+
+  # State Management (BLoC)
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
